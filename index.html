@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>PasswordGenerator-JS</title>
+    <script src="PasswordGenerator.js"></script>
+  </head>
+  <body>
+    <h1><a href="https://github.com/Rabbit-Company/PasswordGenerator-JS" target="_blank">PasswordGenerator-JS</a></h1>
+
+    <input type="checkbox" id="upperCase" checked />
+    <label>Uppercase</label></br>
+
+    <input type="checkbox" id="numbers" checked />
+    <label>Numbers</label></br>
+
+    <input type="checkbox" id="symbols" checked />
+    <label>Symbols</label></br></br>
+
+    <label>Length: </label>
+    <input id="length" type="range" min="8" max="30" value="10" placeholder="Length" /><label id="label-length">10</label></br></br>
+
+    <button id="generate">Generate</button>
+
+    <p>Password: <b id="result"></b></p>
+
+    <h1>Performance Test</h1>
+    <div>
+      <label>Number of executions:</label>
+      <input id="amount" type="number" min="1" max="100000" placeholder="Amount" value="1000" />
+      <button id="btn-start">Start</button>
+    </div>
+    <p id="perf"></p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
