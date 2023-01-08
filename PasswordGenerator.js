@@ -1,7 +1,7 @@
 /*
-PasswordGenerator-JS v1.0.0
+PasswordGenerator-JS v1.0.1
 https://github.com/Rabbit-Company/PasswordGenerator-JS
-License: GPL-3.0
+License: MIT
 */
 
 class PasswordGenerator{
@@ -15,10 +15,10 @@ class PasswordGenerator{
 		var range = max - min;
 		var requestBytes = Math.ceil(Math.log2(range) / 8);
 		if (!requestBytes) return min;
-	
+
 		var maxNum = Math.pow(256, requestBytes);
 		var ar = new Uint8Array(requestBytes);
-	
+
 		while (true) {
 			window.crypto.getRandomValues(ar);
 			var val = 0;
