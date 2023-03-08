@@ -1,17 +1,22 @@
 # PasswordGenerator-JS
 
-Password Generator implemented in a plain JavaScript.
+Password generator implemented in JavaScript (ES6).
 
 This library will auto generate random secure passwords.
 
 ## Usage
 
-### 1. Import library
-```html
-<script src="PasswordGenerator.min.js"></script>
+### 1. Download library
+```bash
+npm i --save @rabbit-company/password-generator
 ```
 
-### 2. Generate Password
+### 2. Import library
+```js
+import PasswordGenerator from "@rabbit-company/password-generator";
+```
+
+### 3. Generate Password
 ```js
 /*
 

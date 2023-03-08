@@ -1,3 +1,5 @@
+import PasswordGenerator from "./password-generator.js";
+
 document.getElementById("result").innerText = PasswordGenerator.generate();
 
 document.getElementById("length").addEventListener('change', () => {

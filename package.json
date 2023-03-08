@@ -1,0 +1,38 @@
+{
+	"name": "@rabbit-company/password-generator",
+	"version": "1.1.0",
+	"description": "Password generator",
+	"main": "./src/password-generator.js",
+	"type": "module",
+	"homepage": "https://github.com/Rabbit-Company/PasswordGenerator-JS",
+	"funding": "https://rabbit-company.com/donation",
+	"author": "Rabbit Company <info@rabbit-company.com>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"build": "rabbit-builder"
+	},
+	"files": [
+		"src/password-generator.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Rabbit-Company/PasswordGenerator-JS.git"
+	},
+	"contributors": [
+		"Rabbit Company <info@rabbit-company.com> (https://github.com/Rabbit-Company)"
+	],
+	"bugs": {
+		"url": "https://github.com/Rabbit-Company/PasswordGenerator-JS/issues",
+		"email": "info@rabbit-company.com"
+	},
+	"keywords": [
+		"password",
+		"generator",
+		"security",
+		"strength"
+	],
+	"devDependencies": {
+		"@rabbit-company/rabbit-builder": "^1.0.4"
+	}
+}
