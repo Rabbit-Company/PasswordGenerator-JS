@@ -51,7 +51,7 @@ export default class PasswordGenerator{
 	/**
 	 * Generates a random password based on specified criteria.
 	 *
-	 * @param {number} [length=10] - The length of the password.
+	 * @param {number} [length=20] - The length of the password.
 	 * @param {boolean} [upperCase=true] - Include uppercase letters in the password.
 	 * @param {boolean} [numbers=true] - Include numbers in the password.
 	 * @param {boolean} [specials=true] - Include special characters in the password.
