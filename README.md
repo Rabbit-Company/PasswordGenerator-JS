@@ -21,19 +21,19 @@ import PasswordGenerator from "@rabbit-company/password-generator";
 /*
 
   Parameters:
-  1. Length (Number) <10>
+  1. Length (Number) <20>
   2. Uppercase (Bool) <true>
   3. Numbers (Bool) <true>
   4. Symbols (Bool) <true>
 
 */
 
-// Generate 10 character long password with Uppercase characters, Numbers and Symbols.
+// Generate 20 character long password with Uppercase characters, Numbers and Symbols.
 PasswordGenerator.generate();
 
-// Generate 15 character long password with Uppercase characters, Numbers and Symbols.
-PasswordGenerator.generate(15);
+// Generate 30 character long password with Uppercase characters, Numbers and Symbols.
+PasswordGenerator.generate(30);
 
-// Generate 20 character long password with Uppercase characters and Numbers.
-PasswordGenerator.generate(20, true, true, false);
+// Generate 50 character long password with Uppercase characters and Numbers.
+PasswordGenerator.generate(50, true, true, false);
 ```
