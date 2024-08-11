@@ -1,0 +1,5 @@
+{
+	"name": "@rabbit-company/password-generator",
+	"version": "2.0.1",
+	"exports": "./src/password-generator.ts"
+}
