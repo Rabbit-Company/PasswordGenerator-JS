@@ -1,5 +1,8 @@
 {
 	"name": "@rabbit-company/password-generator",
-	"version": "2.1.0",
-	"exports": "./src/password-generator.ts"
+	"version": "2.1.1",
+	"exports": "./src/password-generator.ts",
+	"publish": {
+		"include": ["LICENSE", "README.md", "src/password-generator.ts"]
+	}
 }

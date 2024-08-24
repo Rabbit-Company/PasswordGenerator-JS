@@ -1,6 +1,6 @@
 {
 	"name": "@rabbit-company/password-generator",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"description": "Password generator",
 	"main": "./module/password-generator.js",
 	"browser": "./module/password-generator.js",
@@ -35,11 +35,11 @@
 		"strength"
 	],
 	"devDependencies": {
-		"@types/bun": "latest",
+		"@types/bun": "^1.1.7",
 		"bun-plugin-dts": "^0.2.3",
-		"@rabbit-company/logger": "^3.1.0"
+		"@rabbit-company/logger": "^4.0.0"
 	},
 	"peerDependencies": {
-		"typescript": "^5.0.0"
+		"typescript": "^5.5.4"
 	}
 }
