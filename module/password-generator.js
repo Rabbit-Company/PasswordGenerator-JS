@@ -13,7 +13,7 @@ var PasswordGenerator;
     var maxNum = Math.pow(256, requestBytes);
     var ar = new Uint8Array(requestBytes);
     while (true) {
-      window.crypto.getRandomValues(ar);
+      globalThis.crypto.getRandomValues(ar);
       var val = 0;
       for (var i = 0;i < requestBytes; i++)
         val = (val << 8) + ar[i];
